@@ -11,6 +11,13 @@ html,body{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    border-radius: 30px;
+}
 :root{
     --para: "Josefin Sans", sans-serif;
     --heading: "Poppins", sans-serif;
