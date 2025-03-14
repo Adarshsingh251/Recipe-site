@@ -1,3 +1,7 @@
+document.addEventListener("contextmenu",function(e){
+    e.preventDefault()
+},false)
+
 t = gsap.timeline();
 
 t.from(".main-screen h1",{
