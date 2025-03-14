@@ -40,12 +40,11 @@ nav .nav-right a{
     text-decoration: none;
     /* color:purple; */
     background-image: linear-gradient(to right, #ebc0fd 0%, #d9ded8 100%);
-    color:transparent;
-    -webkit-background-clip: text;
     font-size: 1.5rem;
     font-family: var(--just);
     margin-left:16px;
-   
+    color:transparent;
+    -webkit-background-clip: text;
 }
 .main{
     width:100%;
@@ -112,7 +111,7 @@ nav .nav-right a{
 } */
 .main-part{
     width:100%;
-    height:380vh;
+    height:420vh;
     background-color: rgb(234, 81, 81);
     display:flex;
     justify-content: center;
