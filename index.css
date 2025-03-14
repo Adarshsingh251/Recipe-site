@@ -150,6 +150,10 @@ nav .nav-right a{
     font-size: 1.3rem;
     font-family: var(--just);
 }
+.main-part .content-div .section1 .left1 ul h3{
+    text-decoration:2px double black underline;
+    font-family: var(--heading);
+}
 .main-part .content-div .section1 .left1 .instruction{
     margin-top:20px;
 }
