@@ -2,6 +2,8 @@ document.addEventListener("contextmenu",function(e){
     e.preventDefault()
 },false)
 
+gsap.matchMedia().add("(min-width: 768px)", () => {
+
 t = gsap.timeline();
 
 t.from(".main-screen h1",{
@@ -81,3 +83,4 @@ gsap.to(".section1 .left1 .instruction",{
 //         scrub:2,
 //     }
 // })
+});
